@@ -1,0 +1,8 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Restart nginx
+  community.general.homebrew_services:
+    name: nginx
+    state: restarted
+
+# handlers file for nginx_role

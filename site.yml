@@ -5,3 +5,4 @@
      - common
      - hello_world_role
      - hostname_role
+     - nginx_role
