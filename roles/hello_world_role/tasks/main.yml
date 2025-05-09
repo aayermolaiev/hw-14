@@ -1,0 +1,9 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Create file with content
+  copy:
+    dest: "/tmp/test1"
+    content: |
+      Hello world!
+
+# tasks file for hello_world_role

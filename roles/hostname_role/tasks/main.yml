@@ -1,0 +1,7 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Deploy the hostname template
+  template:
+    src: server_hostname.j2
+    dest: /tmp/test2
+# tasks file for hostname_role

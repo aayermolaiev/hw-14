@@ -1,0 +1,7 @@
+- name: Deploy Roles
+  gather_facts: yes
+  hosts: servers
+  roles: 
+     - common
+     - hello_world_role
+     - hostname_role
